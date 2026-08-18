@@ -38,9 +38,9 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
 
-1. Student-1, Juan Esteban Beltran Ramirez, <j.beltranr2@uniandes.edu.co>
-1. Student-2, Jimmy Alejandro Mujica Delgado, <j.mujicad@uniandes.edu.co>
-1. Student-3, Samuel Esteban Diaz Arias, <sediaza12@uniandes.edu.co.>
+1. Student-1, Juan Esteban Beltran Ramirez, <j.beltranr2@uniandes.edu.co., 202522032>
+1. Student-2, Jimmy Alejandro Mujica Delgado, <j.mujicad@uniandes.edu.co., 202224528>
+1. Student-3, Samuel Esteban Diaz Arias, <sediaza12@uniandes.edu.co., 202522112>
 
 
 [Volver al inicio](#laboratorio-2)
