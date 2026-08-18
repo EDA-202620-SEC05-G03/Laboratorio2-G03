@@ -163,16 +163,10 @@ def add_book_tags_file(catalog, booktagsfile):
     """
     Esta funcion guardar los booktags provenientes del archivo CSV.
 
-    :param catalog: Catalogo de la aplicación
-    :type catalog: dict
-    :param booktagsfile: Nombre del archivo csv con los booktags
-    :type booktagsfile: str
-
-    :returns: catalog
-    :rtype: dict
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
+    catalog["book_tags"] = set.new_set()
+    return catalog
 
 
 def create_book_tag_list(catalog):
@@ -180,7 +174,8 @@ def create_book_tag_list(catalog):
     Esta funcion crea una lista vacia para booktags.
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
+    catalog["book_tags"] = set.new_set()
+    return catalog
 
 
 def add_book_tag(catalog, booktag):
@@ -196,6 +191,8 @@ def add_book_tag(catalog, booktag):
     :rtype: dict
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
+    set.add_element(catalog["book_tags"], booktag)
+    return catalog
     set.add_element(catalog["book_tags"], booktag)
     return catalog
 
