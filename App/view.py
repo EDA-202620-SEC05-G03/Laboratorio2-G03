@@ -68,7 +68,7 @@ def load_books(app):
     :type app: logic
     """
     books = logic.load_books(app,
-                             "GoodReads/books-small.csv")
+                             "GoodReads/books.csv")
     return books
 
 
